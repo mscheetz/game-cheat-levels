@@ -1,6 +1,6 @@
-const levels = require('./levels.route');
+const dmw = require('./dmw.route');
 const router = require('express').Router();
 
-router.use('/levels', levels);
+router.use('/dmw', dmw);
 
 module.exports = router;

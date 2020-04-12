@@ -12,7 +12,7 @@ const pool = new Pool({
 
 const getAll = async() => {
     const sql = `select id, world, "virusCount", attributes
-    from public."level"
+    from public."DMWLevel"
     where id > 0`;
 
     try {

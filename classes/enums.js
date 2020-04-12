@@ -1,4 +1,4 @@
-const attributes = {
+const dmwAttributes = {
     none = 0,
     ice = 1,
     bubble = 2,
@@ -13,5 +13,5 @@ const attributes = {
 }
 
 module.exports = {
-    attributes
+    dmwAttributes
 }
